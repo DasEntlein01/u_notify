@@ -29,7 +29,7 @@ Play custom sounds (MP3 or GTA native) on notifications. Perfect for servers tha
 3. **Restart your server** (or start the resource)
 
 ```bash
-   restart u_notify
+   start u_notify
 ```
 
 ## Configuration
