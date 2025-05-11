@@ -17,20 +17,20 @@ _You can insert screenshots or a GIF here to showcase notifications in action._
 ## Installation
 
 1. **Clone or download this repository**  
-   ```bash
+```bash
    git clone https://github.com/DasEntlein01/u_notify.git
 ```
 
 2. **Add the resource to your `server.cfg`**
 
-   ```ini
+```ini
    ensure u_notify
-   ```
+```
 3. **Restart your server** (or start the resource)
 
-   ```bash
+```bash
    restart u_notify
-   ```
+```
 
 ## Configuration
 
@@ -43,15 +43,6 @@ HUD = {
             mp3    = true,  -- Set to false to use GTA native sound
             url    = "https://yourdomain.com/notify.mp3",
             volume = 0.5,   -- Range: 0.0–1.0
-            gta    = {
-                audioName = "ATM_WINDOW",
-                audioRef  = "HUD_FRONTEND_DEFAULT_SOUNDSET"
-            }
-        },
-        ["Announce"] = {
-            mp3    = true,
-            url    = "https://yourdomain.com/announce.mp3",
-            volume = 0.5,
             gta    = {
                 audioName = "ATM_WINDOW",
                 audioRef  = "HUD_FRONTEND_DEFAULT_SOUNDSET"
