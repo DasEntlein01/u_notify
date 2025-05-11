@@ -12,7 +12,7 @@ Play custom sounds (MP3 or GTA native) on notifications. Perfect for servers tha
 
 ## Preview
 
-_You can insert screenshots or a GIF here to showcase notifications in action._
+![u_notify Preview](https://r2.fivemanage.com/FwFyuxmql8jrIawC4jFjD/2025-05-1121-41-46.gif)
 
 ## Installation
 
