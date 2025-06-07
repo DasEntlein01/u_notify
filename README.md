@@ -36,27 +36,6 @@ Play custom sounds (MP3 or GTA native) on notifications. Perfect for servers tha
 
 Open `client.lua` and adjust the `HUD.Sounds` table to your liking:
 
-```lua
-HUD = {
-    Sounds = {
-        ["Notify"] = {
-            mp3    = true,  -- Set to false to use GTA native sound
-            url    = "https://yourdomain.com/notify.mp3",
-            volume = 0.5,   -- Range: 0.0–1.0
-            gta    = {
-                audioName = "ATM_WINDOW",
-                audioRef  = "HUD_FRONTEND_DEFAULT_SOUNDSET"
-            }
-        },
-    },
-}
-```
-
-* **mp3**: `true` to play the specified URL, `false` to use the GTA native sound.
-* **url**: Web-accessible MP3 link.
-* **volume**: Playback volume from 0.0 (silent) to 1.0 (full).
-* **gta.audioName / gta.audioRef**: GTA sound identifiers when `mp3 = false`.
-
 ## Usage
 
 Trigger notifications in your scripts with:
@@ -93,8 +72,6 @@ This project is licensed under the **MIT License**. See [LICENSE](./LICENSE) for
 
 ## Contributing & Support
 
-Got questions or suggestions? Open an [issue](https://github.com/yourusername/u_notify/issues) or submit a pull request.
+Got questions or suggestions? Open an [issue](https://github.com/DasEntlein01/u_notify/issues) or submit a pull request.
 Happy coding! 🚀
-
-```
 ```
