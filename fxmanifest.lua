@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'DasEntlein'
 description 'u_notify'
-version '0.5'
+version '1.0'
 
 client_scripts {
   "client/**"
